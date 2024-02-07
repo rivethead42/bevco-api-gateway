@@ -1,7 +1,7 @@
 import express from 'express';
 import { json } from 'body-parser';
 
-import { port, db } from './config';
+import { port } from './config';
 import { inventoryRouter } from './routes/inventory';
 import { restockRouter } from './routes/restock';
 
